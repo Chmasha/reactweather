@@ -5,7 +5,7 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity="New York" />
       <footer>
         This project was created by Mariia Chorna and is{" "}
         <a
